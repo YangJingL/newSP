@@ -327,6 +327,8 @@
 }
 .fd-nav-li-03-content li {
     line-height: 28px;
+}
+.fd-nav-li-03-content li a {
     color: #758293;
     font-family: "微软雅黑";
     font-size: 12px;
@@ -362,7 +364,7 @@
 }
 .fd-nav-li-04-content li,
 .fd-ssfw-content .fd-ssfw-li-data,
-.fd-ssfw-content-ul-login li {
+.fd-ul-data-area-02 li {
     display: inline-table;
     width: 214px;
     height: 60px;
@@ -432,29 +434,36 @@
     background-color: #fff;
     z-index: 10;
 }
-.fd-ssfw--li-span-login {
+.fd-ul-data-area-02 {
     font-family: "微软雅黑";
     font-size: 16px;
     font-weight: bold;
     line-height: 0;
     color: #454b50;
 }
+.fd-ul-data-area-02 li {
+    float: left;
+    background-color: #e6f5fe;
+    border: 1px solid #a6c7f2;
+}
+.fd-ul-data-area-02 li{
+
+}
 .fd-ssfw-content .fd-ssfw--li-data,
-.fd-ssfw-content-ul-login li {
+.fd-ul-data-area-02 li {
     text-align: center;
 }
-.fd-ssfw-content-ul-login p {
+.fd-ul-data-area-02 span {
     display: inline-block;
     text-align: center;
     vertical-align: middle;
-    line-height: normal;
-}
-.fd-ssfw--li-span-link {
-    font-family: "微软雅黑";
-    font-size: 16px;
+    font: 16px/normal "微软雅黑";
     color: #454b50;
 }
-.fd-ssfw-content .fd-ssfw--li-a-login {
+.fd-ul-data-area-02 a {
+    
+}
+.fd-ul-data-area-02 div {
     display: block;
     font-family: "微软雅黑";
     font-size: 12px;
@@ -479,10 +488,6 @@
 }
 .fd-ssfw--li-cyal {
     background: url("../images/icon15.png") no-repeat 45px 14px;
-}
-.fd-ssfw-content-ul-login li{
-    background-color: #e6f5fe;
-    border: 1px solid #a6c7f2;
 }
 /*诉讼服务弹出框 end*/
 
