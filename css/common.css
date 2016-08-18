@@ -14,11 +14,10 @@
 *CreatTime 		 15.04.27
 **************************************/
 .fd-contain {
-		background-color:#fff;
+		background-color:#eaecee;
 		min-width:1000px;
 		overflow:hidden;
 	}
-.fd-content ,
 .fd-header,
 .fd-content,
 .fd-footer {
@@ -33,12 +32,6 @@
     width: 1000px;
     margin: 0 auto;
 }
-.fd-content{
-    background-color: #eaecee;
-	}
-.fd-footer{
-
-	}
 .fd-header-in ,.fd_main,.fd-footer-in{
     margin:0 auto;
     width:1000px;
@@ -101,24 +94,21 @@
     height: 100%;
     background: url("../images/fy-logo.png") no-repeat left center;
 }
-.fd-header-right {
+.fd-header-info {
     float: right;
     letter-spacing: -0.5px;
 }
-.fd-header-right-span-01 {
+.fd-header-info-span-01 {
     padding-left: 20px;
     line-height: 21.83px;
     background: url("../images/icon01.png") no-repeat left 4px;
     text-align: right;
 }
-.fd-header-right-span-02,
-.fd-header-right-span-01 {
+.fd-header-info-span-01,
+.fd-header-info-span-02 {
     display: inline-block;
     font-size: 12px;
     font-family: "微软雅黑";
-}
-.fd-header-right-fwl-value {
-    line-height: 21.83px;
 }
 .fd-header-right-login {
     display: inline-block;
@@ -134,30 +124,15 @@
 .fd-header-ewm {
     position: relative;
     margin-top: 15px;
+    overflow: hidden;
 }
-.fd-header-ewm-div-01,
-.fd-header-ewm-div-02 {
-    position: relative;
+.fd-header-ewm a {
+    display: block;
     float: right;
-    width: 70px;
-    height: 88px;
-    display: inline-block;
-    font: 12px/28px "微软雅黑";
-    line-height: normal;
+    width: 167px;
+    height: 92px;
+    background: url("../images/icon-ewm.png");
 }
-.fd-header-ewm-div-01 {
-    margin-right: 28px;
-    background: url("../images/ewm01.png") no-repeat;
-}
-.fd-header-ewm-div-01 span,
-.fd-header-ewm-div-02 span {
-    position: absolute;
-    bottom: 0;
-}
-.fd-header-ewm-div-02 {
-    background: url("../images/ewm02.png") no-repeat;
-}
-
 /*--------------------  content  --------------------*/
 /*---------------- 导航栏布局 start ----------------*/
 .fd-content-nav {
@@ -182,6 +157,9 @@
     font-family: "微软雅黑";
     font-size: 14px;
     color: #738091;
+}
+.fd-nav-ul-a:hover {
+    text-decoration: none;
 }
 .fd-nav-ul-a {
     display: block;
@@ -534,13 +512,14 @@
     padding-top: 8px;
     float: left;
 }
-.fd-nav-li-06-content .fd-ul-data-list-01 {
+.fd-nav-li-06-content .fd-ul-data-link-01 {
     width: 165px;
     margin-left: 14px;
 }
-
-.fd-nav-li-06-content ul li,
-.fd-splc-data-list-02 li {
+.fd-nav-li-06-content .fd-ul-data-link-02 {
+    float: right;
+}
+.fd-nav-li-06-content ul li {
     list-style-type: disc ;
     line-height: 28px;
     text-align: left;
@@ -894,6 +873,7 @@
 }
 .fd-content-item-title {
     width: 100%;
+    height: 44px;
     padding: 12px 0 18px 0;
     background: #f1f3f5 url("../images/dashed.png") no-repeat bottom;
     text-align: center;
@@ -949,7 +929,6 @@
     text-decoration: none;
     background: url("../images/icon-more.png") no-repeat 25px center;
 }
-
 .fd-ul-data-list-02 {
     padding: 11px 18px 25px 12px;
     width: 268px;
@@ -1088,17 +1067,23 @@
 .fd-main-div-05 .fd-div-data-area {
     padding: 31px 9px 18px 7px ;
 }
-.fd-div-data-area-ul li {
+.fd-div-data-area-ul a {
+    display: block;
     float: left;
     margin: 10px 0 0 10px;
-    width: 127px;
-    height: 38px;
+    width: 125px;
+    height: 36px;
     text-align: center;
+    border: 1px solid #f1f1f1;
+    border-radius: 3px;
     background-color: #f1f1f1;
-}
-.fd-div-data-area-ul a {
     font: 12px/42px "微软雅黑";
     color: #758293;
+}
+.fd-div-data-area-ul a:hover {
+    background-color: #4ec6f8;
+    color: #fff;
+    text-decoration: none;
 }
 .fd-main-div-05 .fd-nav-01-content {
     padding: 20px 25px 4px 25px;
@@ -1195,6 +1180,7 @@
 }
 .fd-main-div-06 {
     margin-top: 24px;
+    letter-spacing: -8px;
 }
 .fd-main-div-06 a {
     display: inline-block;
@@ -1202,26 +1188,21 @@
     height: 45px;
     overflow: hidden;
 }
-.fd-ul-link li {
-    float: left;
-}
 .fd-ul-li-link-01 {
-    background: url("../images/icon35.png") no-repeat right  #fff;
+    margin-right: 17.3px;
+    background: url("../images/icon35.png") no-repeat center;
 }
 .fd-ul-li-link-02 {
-
     margin-right: 17.3px;
-    background: url("../images/icon36.png") no-repeat right  #fff;
+    background: url("../images/icon36.png") no-repeat center;
 
 }
 .fd-ul-li-link-03 {
-
     margin-right: 17.3px;
-    background: url("../images/icon37.png") no-repeat right  #fff;
+    background: url("../images/icon37.png") no-repeat center;
 }
 .fd-ul-li-link-04 {
-    margin-right: 17.3px;
-    background: url("../images/icon38.png") no-repeat right  #fff;
+    background: url("../images/icon38.png") no-repeat center;
 }
 .fd-footer{
     margin-top: 17px;
@@ -1236,37 +1217,34 @@
     width: 1000px;;
     height: auto;
 }
-.fd-footer-yq-link {
+.fd-footer-div-link {
     padding-top: 19px;
     padding-right: 20px;
     font: 12px/28px "微软雅黑";
     color: #fff;
 }
-.fd-footer-yq-link a {
+.fd-footer-div-link a {
     text-decoration: none;
     color: #fff;
 }
-.fd-footer-ul-fy-link {
+.fd-footer-ul-link {
     margin-left: 60px;
     font: 12px/28px "微软雅黑";
     color: #fff;
 }
-.fd-footer-ul-fy-link a {
+.fd-footer-ul-link a {
     margin: 0 8px;
+    padding-left: 5px;
     font: 12px/28px "微软雅黑";
-
 }
-.fd-footer-in ul li {
+.fd-footer-ul-link li {
     line-height: 26px;
 }
-.fd-footer-in ul li span{
+.fd-footer-ul-link span{
     display: inline-block;
     padding-right: 10px;
     line-height: 14px;
     border-right: 1px solid #fff;
-}
-.fd-footer-in ul a {
-    padding-left: 5px;
 }
 .fd-footer-right {
     position: relative;
@@ -1274,13 +1252,16 @@
     font: 12px/24px "微软雅黑";
     color: #fff;
 }
+.fd-footer-right-span {
+    display: block;
+}
 .fd-footer-right-number {
     color: #46C9FF;
 }
-.fd-footer-right-number-span-02 {
+.fd-span-number-02 {
     margin-left: 15px;
 }
-.fd-footer-right-tzjg-logo {
+.fd-footer-right-logo {
     position: absolute;
     width: 52px;
     height: 62px;
@@ -1288,7 +1269,7 @@
     bottom: 0;
     background: url("../images/dzjg-logo.png");
 }
-.fd-footer-in-bjfy-logo {
+.fd-footer-logo {
     position: absolute;
     width: 130px;
     height: 128px;
