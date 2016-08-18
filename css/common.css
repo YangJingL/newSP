@@ -23,7 +23,7 @@
 .fd-content,
 .fd-footer {
 		width:100%;;
-	}	
+	}
 .fd-header{
 	height: 147px;
 	background: url("../images/header-bg.png") repeat;
@@ -37,7 +37,7 @@
     background-color: #eaecee;
 	}
 .fd-footer{
-	
+
 	}
 .fd-header-in ,.fd_main,.fd-footer-in{
     margin:0 auto;
@@ -648,7 +648,7 @@
     clear: both;
 }*/
 .fd-nav-li-07-content .fd-div-layout-02,
-.fd-zxxx-content-right {
+.fd-nav-li-08-content .fd-div-layout-02 {
     float: right;
 }
 .fd-div-area-01,
@@ -1075,18 +1075,20 @@
 .fd-main-div-05 .fd-nav-01-title {
     background: url("../images/icon34.png") no-repeat 14px 7px;
 }
+.fd-main-div-05 .fd-nav-02-title {
+    background: url("../images/icon30.png") no-repeat 15px center;
+}
 .fd-main-div-right-fwxx-nav {
     height: 43px;
     width: 100%;
-    background: url("../images/icon30.png") no-repeat 15px center;
+    background: url("../images/icon30.png") no-repeat ;
     background-color: #f6f8fa;
     border-bottom: 1px solid #dfe5ea;
 }
-.fd-main-div-right-content {
+.fd-main-div-05 .fd-div-data-area {
     padding: 31px 9px 18px 7px ;
 }
-
-.fd-main-div-right-content-ul li {
+.fd-div-data-area-ul li {
     float: left;
     margin: 10px 0 0 10px;
     width: 127px;
@@ -1094,14 +1096,13 @@
     text-align: center;
     background-color: #f1f1f1;
 }
-.fd-main-div-right-content-ul a {
+.fd-div-data-area-ul a {
     font: 12px/42px "微软雅黑";
     color: #758293;
 }
-
-
 .fd-main-div-05 .fd-nav-01-content {
-    padding: 20px 25px 18px 25px;
+    padding: 20px 25px 4px 25px;
+    overflow: hidden;
 }
 .fd-nav-01-content-02 {
     position: relative;
@@ -1123,7 +1124,7 @@
     padding: 0 13px;
 }
 .fd-ul-data-list-04 {
-    margin-top: 24px;
+    margin-top: 18px;
 }
 .fd-ul-data-list-04 li,
 .fd-main-div-05-content-02-ul-02 li {
@@ -1148,108 +1149,79 @@
 .fd-title-span-02 {
     padding-left: 70px;
 }
-.fd-main-div-05-content-01-ul-btns {
+.fd-main-div-05 .fd-ul-btns-01 {
     position: absolute;
     left: 125px;
-    bottom: 3px;
+    bottom: 0;
 }
-.fd-main-div-05-content-02-ul-btns {
+.fd-main-div-05 .wrapper {
+    position: relative;
+    padding-bottom: 10px;
+    overflow: hidden;
+}
+.fd-main-div-05 .fd-ul-btns-02 {
     position: absolute;
     right: 150px;
-    bottom: 3px;
+    bottom: 0;
 }
-.fd-main-div-05-content-01-ul-btns li,
-.fd-main-div-05-content-02-ul-btns li {
+.fd-ul-btns-01 li,
+.fd-ul-btns-02 li {
     float: left;
     margin: 0 3px;
 }
-.fd-main-div-05-content-01-ul-btns a,
-.fd-main-div-05-content-02-ul-btns a {
+.fd-ul-btns-01 a,
+.fd-ul-btns-02 a {
     display: block;
     width: 7px;
     height: 7px;
     border: 1px solid #003d74;
     border-radius: 50%;
 }
-.fd-main-div-05-content-01-ul-btns a:hover,
-.fd-main-div-05-content-01-ul-btns a.selected,
-.fd-main-div-05-content-02-ul-btns a:hover,
-.fd-main-div-05-content-02-ul-btns a.selected {
+.fd-ul-btns-01 a:hover,
+.fd-ul-btns-01 a.selected,
+.fd-ul-btns-02 a:hover,
+.fd-ul-btns-02 a.selected {
     background-color: #003d74;
 }
-.fd-main-div-05-content-01-img {
+.fd-main-div-05 .fd-img-01 {
     position: absolute;
     right: 15px;
     bottom: 40px;
 }
-.fd-main-div-05-content-02-img {
+.fd-main-div-05 .fd-img-02 {
     position: absolute;
     right: 0px;
     top: 30px;
 }
-.fd-main-div-05-content-01-ul-01,
-.fd-main-div-05-content-02-ul-02 {
-    margin-top: 14px;
-}
 .fd-main-div-06 {
     margin-top: 24px;
 }
-.fd-main-div-06-ul {
-    width: 100%;
+.fd-main-div-06 a {
+    display: inline-block;
+    width: 237px;
     height: 45px;
+    overflow: hidden;
 }
-.fd-main-div-06-ul li {
+.fd-ul-link li {
     float: left;
-    width: 235px;
-    height: 43px;
 }
-.fd-main-div-06--li-01 {
-    border: 1px solid #4f8bdc;
-    border-radius: 2px;
-    margin-right: 17.3px;
-    background: url("../images/wb04.png") no-repeat right  #fff;
+.fd-ul-li-link-01 {
+    background: url("../images/icon35.png") no-repeat right  #fff;
 }
-.fd-main-div-06--li-02 {
-    border: 1px solid #db4857;
-    border-radius: 2px;
+.fd-ul-li-link-02 {
+
     margin-right: 17.3px;
-    background: url("../images/wb01.png") no-repeat right  #fff;
+    background: url("../images/icon36.png") no-repeat right  #fff;
 
 }
-.fd-main-div-06--li-03 {
-    border: 1px solid #83b54d;
-    border-radius: 2px;
+.fd-ul-li-link-03 {
+
     margin-right: 17.3px;
-    background: url("../images/wb02.png") no-repeat right  #fff;
+    background: url("../images/icon37.png") no-repeat right  #fff;
 }
-.fd-main-div-06--li-04 {
-    border: 1px solid #3eb0da;
-    border-radius: 2px;
-    background: url("../images/wb03.png") no-repeat right  #fff;
-}
-.fd-main-div-06--li-01 a {
-    display: block;
-    width: 100%;
-    height: 100%;
-    background: url("../images/wb-text01.png") no-repeat 24px 13px;
-}
-.fd-main-div-06--li-02 a {
-    display: block;
-    width: 100%;
-    height: 100%;
-    background: url("../images/wb-text02.png") no-repeat 24px 13px;
-}
-.fd-main-div-06--li-03 a {
-    display: block;
-    width: 100%;
-    height: 100%;
-    background: url("../images/wb-text03.png") no-repeat 24px 13px;
-}
-.fd-main-div-06--li-04 a {
-    display: block;
-    width: 100%;
-    height: 100%;
-    background: url("../images/wb-text04.png") no-repeat 24px 13px;
+.fd-ul-li-link-04 {
+    margin-right: 17.3px;
+    background: url("../images/icon38.png") no-repeat right  #fff;
 }
 .fd-footer{
     margin-top: 17px;
