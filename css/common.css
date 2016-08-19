@@ -429,19 +429,10 @@
 /*诉讼服务弹出框 end*/
 
 /*审判流程弹出框 start*/
-.fd-nav-ul-li:hover > .fd-nav-li-06-content {
-    display: block;
-}
-.fd-nav-li-06-content {
-    position: absolute;
+.fd-nav-content-06 {
     padding: 20px 28px;
-    display: none;
     width: 944px;
     left: -525px;
-    top: 46px;
-    box-shadow: 1px 1px 3px #768293;
-    background-color: #fff;
-    z-index: 10;
 }
 .fd-div-data-list-01,
 .fd-div-data-list-02,
