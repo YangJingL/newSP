@@ -434,22 +434,22 @@
     width: 944px;
     left: -525px;
 }
-.fd-div-data-list-01,
-.fd-div-data-list-02,
+.fd-data-list-container-01,
+.fd-data-list-container-02,
 .fd-div-data-container {
     float: left;
 }
-.fd-div-data-list-01,
-.fd-div-data-list-02{
+.fd-data-list-container-01,
+.fd-data-list-container-02{
     width: 308px;
 }
-.fd-div-data-list-02 {
+.fd-data-list-container-02 {
     margin-left: 94px;
 }
 .fd-div-data-container {
     margin-left: 44px;
 }
-.fd-nav-li-06-content h4 {
+.fd-h4-title {
     font-family: "microsoft yahei";
     font-size: 16px;
     line-height: 28px;
@@ -457,18 +457,18 @@
     border-bottom: 1px solid #d6d6d6;
     text-align: left;
 }
-.fd-nav-li-06-content ul {
+.fd-nav-content-06 ul {
     padding-top: 8px;
     float: left;
 }
-.fd-nav-li-06-content .fd-ul-data-link-01 {
+.fd-nav-content-06 .fd-ul-data-link-01 {
     width: 165px;
     margin-left: 14px;
 }
-.fd-nav-li-06-content .fd-ul-data-link-02 {
+.fd-nav-content-06 .fd-ul-data-link-02 {
     float: right;
 }
-.fd-nav-li-06-content ul li {
+.fd-nav-content-06 ul li {
     list-style-type: disc ;
     line-height: 28px;
     text-align: left;
@@ -484,17 +484,17 @@
     border: 1px solid #a6c7f2;
     background-color: #e6f5fe;
 }
-.fd-div-data-item-text {
+.fd-div-data-container .fd-item-text {
     padding-top: 5px;
 }
-.fd-div-data-item-text  span {
+.fd-item-text  span {
     font-family: "microsoft yahei";
     font-size: 16px;
     font-weight: bold;
     line-height: 28px;
     color: #5b6a75;
 }
-.fd-div-data-item-text a{
+.fd-item-text a{
     display: block;
     font-family: "microsoft yahei";
     font-size: 12px;
@@ -504,43 +504,30 @@
 /*审判流程弹出框 end*/
 
 /*裁判文书弹出框 start*/
-.fd-nav-ul-li:hover > .fd-nav-li-07-content {
-    display: block;
-}
-.fd-nav-li-07-content {
-    position: absolute;
+.fd-nav-content-07 {
     padding: 25px 40px;
-    display: none;
     width: 920px;
     left: -643.75px;
-    top: 46px;
-    box-shadow: 1px 1px 3px #768293;
-    background-color: #fff;
-    z-index: 10;
 }
-.fd-div-layout-01,
-.fd-zxxx-content-left {
+.fd-div-layout-01 {
     float: left;
     width: 538px;
     height: 178px;
     background-color: #ecf7f8;
     border: 1px solid #d9edef;
 }
-.fd-ul-data-input,
-.fd-zxxx-content-left-ul {
+.fd-ul-input {
     float: left;
     position: relative;
     margin-top: 20px;
 }
-.fd-ul-data-input label,
-.fd-zxxx-content-left-lable{
-
+.fd-ul-input label {
     margin-right: 4.92px;
     display: inline-block;
     width: 130px;
     text-align: right;
 }
-.fd-ul-data-input .to {
+.fd-ul-input .to {
     width: 26px;
     padding: 0;
     text-align: center;
@@ -572,18 +559,12 @@
     height: 32px;
     border: 1px solid #b7d1e1;
 }
-/*.fd-ul-data-input li {
-    clear: both;
-}*/
-.fd-nav-li-07-content .fd-div-layout-02,
-.fd-nav-li-08-content .fd-div-layout-02 {
+.fd-div-layout-02 {
     float: right;
 }
 .fd-div-area-01,
 .fd-div-area-02,
-.fd-div-area-03,
-.fd-zxxx-content-right-div01,
-.fd-zxxx-content-right-div02 {
+.fd-div-area-03 {
     width: 349px;
     height: 52px;
     border: 1px solid #a6c7f2;
@@ -591,8 +572,7 @@
     line-height: 52px;
 }
 .fd-div-area-02,
-.fd-div-area-03,
-.fd-zxxx-content-right-div02 {
+.fd-div-area-03 {
     margin-top: 8.15px;
 }
 .fd-div-layout-02 span {
@@ -617,37 +597,19 @@
 /*裁判文书弹出框 end*/
 
 /*执行信息弹出框 start*/
-.fd-nav-ul-li:hover > .fd-nav-li-08-content {
-    display: block;
-}
-.fd-nav-li-08-content {
-    position: absolute;
+.fd-nav-content-08 {
     padding: 25px 40px;
-    display: none;
     width: 920px;
     left: -762.5px;
-    top: 46px;
-    box-shadow: 1px 1px 3px #768293;
-    background-color: #fff;
-    z-index: 10;
 }
 /*执行信息弹出框 end*/
 
 /*数据公开弹出层 start*/
-.fd-nav-ul-li:hover > .fd-nav-li-09-content {
-    display: block;
-}
-.fd-nav-li-09-content {
-    position: absolute;
+.fd-nav-content-09 {
     padding: 25px 26px 25px 14px;
-    display: none;
     width: 960px;
     height: 153px;
     left: -881.25px;
-    top: 46px;
-    box-shadow: 1px 1px 3px #768293;
-    background-color: #fff;
-    z-index: 10;
 }
 .fd-nav-li-09-content .fd-ul-data-area div {
     margin-left: 80px;
@@ -1137,6 +1099,7 @@
     position: absolute;
     right: 15px;
     bottom: 40px;
+    vertical-align: ;
 }
 .fd-main-div-05 .fd-img-02 {
     position: absolute;
